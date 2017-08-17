@@ -1,0 +1,41 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::example_addon"
+msgid "Example Addon Template"
+msgstr "Example Addon Template"
+
+msgctxt "Addons::description::example_addon"
+msgid "A template for creating addons. Requires some random addon. <a href=\"https://github.com/dhaupin\" target=\"_blank\">\[Download\]</a>."
+msgstr "A template for creating addons. Requires some random addon. <a href=\"https://github.com/dhaupin\" target=\"_blank\">\[Download\]</a>."
+
+#. .....................................................
+msgctxt "SettingsOptions::example_addon::addon_general"
+msgid "General Settings"
+msgstr "General Settings"
+
+#. .....................................................
+msgctxt "SettingsOptions::example_addon::addon_tools"
+msgid "Addon Tools"
+msgstr "Addon Tools"
+
+#. .....................................................
+msgctxt "SettingsOptions::example_addon::example_enable"
+msgid "Enable Addon?"
+msgstr "Enable Addon?"
+
+msgctxt "SettingsTooltips::example_addon::example_enable"
+msgid "Allows you to enable/disable this addon on a per-store basis."
+msgstr "Allows you to enable/disable this addon on a per-store basis."
+
+#. .....................................................
+msgctxt "SettingsOptions::example_addon::example_del"
+msgid "Delete Stored Data on Uninstall?"
+msgstr "Delete Stored Data on Uninstall?"
+
+msgctxt "SettingsTooltips::example_addon::example_del"
+msgid "Whether or not to delete stored data upon uninstallation."
+msgstr "Whether or not to delete stored data upon uninstallation."

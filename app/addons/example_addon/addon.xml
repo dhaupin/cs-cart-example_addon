@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+	<id>example_addon</id>
+	<version>1.0.0</version>
+	<priority>1000000</priority>
+	<position>0</position>
+	<status>active</status>
+	<default_language>en</default_language>
+	<compatibility>
+		<core_version>
+			<min>4.3.4</min>
+			<!-- Untested below v4.3.4 -->
+		</core_version>
+		<dependencies>dependency_addon</dependencies>
+	</compatibility>
+	<authors>
+		<author>
+			<name>Dhaupin - CreadevDotOrg</name>
+			<email>dhaupin@creadev.org</email>
+			<url>https://creadev.org</url>
+		</author>
+	</authors>
+	<settings layout="popup">
+		<sections>
+			<section id="general">
+				<name>General</name>
+				<items>
+					<!--<item id="addon_general">
+						<type>header</type>
+						<handler></handler>
+					</item>-->
+					<item id="addon_tools">
+						<type>header</type>
+						<handler></handler>
+					</item>
+					<item id="example_enable">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="example_del" edition_type="ROOT">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+				</items>
+			</section>
+		</sections>
+	</settings>
+	<functions>
+		<item for="install">fn_example_addon_install</item>
+		<item for="uninstall">fn_example_addon_uninstall</item>
+	</functions>
+</addon>
