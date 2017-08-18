@@ -12,7 +12,7 @@ Obviously, this addon does nothing until you replace all instances of `example_a
 - Install/uninstall DB procedures for a Y/N product field
 - Option to abort uninstall DB proceedure
 
-### Future things
+### Future Things
 - TBA - Appending to addon tab in product, store, etc
 - TBA - Simple block schema, settings, and tpl
-- TBA - Product admin global + mass edit
+- TBA - Admin product list global & mass edit for a Y/N field
