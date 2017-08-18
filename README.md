@@ -14,6 +14,8 @@ Obviously, this addon does nothing besides save the Y/N in the example product f
 - An example Y/N product field
 - Option added to product edit page
 - Product global/mass edit ability
+- Extra hooks for product Y/N condition
+- Extra functions for get/set
 
 ### Future Addon Examples
 - TBA - Simple block schema, settings, and tpl
