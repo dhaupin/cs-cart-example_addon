@@ -10,7 +10,7 @@ Obviously, this addon does nothing until you replace all instances of `example_a
 - Example TPL script hooks for admin and catalog
 - Enable/disable addon setting, per-storefront
 - Install/uninstall DB procedures for a Y/N product field
-- Option to abort uninstall DB proceedure
+- Option to abort uninstall DB procedure
 
 ### Future Things
 - TBA - Appending to addon tab in product, store, etc
