@@ -21,6 +21,7 @@ Obviously, this addon does nothing besides save the Y/N in the example product f
 - TBA - Simple block schema, settings, and tpl
 
 ### Bonus: Addon Dev Tips
+- If your addon fails to install due to a PO file error, first check to make sure there is a final new line after the last entry. Your PO file may have perfect syntax, but if there is no final line, it's not technically valid. Please note, the Github web and raw interfaces **do not** show the final new line, so if you're copy-pasting make sure to add it manually.
 - Always check your addon functions against the per-storefront enable option if you choose to use this feature. It's cheaper and more granular to check loaded registry array than to run a function/chain to retun false or other things via your addon itself.
 - Use override TPL hooks with extreme care, and always surround them with a conditional statement so they can revert back down the chain. Overrides are a last resort. If CS-Cart sees any output besides whitespace or linebreaks when your override isn't required, it will nuke the original and possibly other TPL requirements down the line, resulting in addon incompatibility.
 - Never try to override the registry runtime `company_id` unless it's close to an exit. Doing so may cause adverse reactions in places you may not think are requiring it. There are a lot of things that go on behind the scenes in CS-Cart, please avoid mutating it's state.
