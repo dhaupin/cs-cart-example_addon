@@ -4,9 +4,13 @@ msgstr "Project-Id-Version: tygh"
 "Language-Team: English\n"
 "Language: en_US"
 
+msgctxt "Languages::example_addon"
+msgid "Example Addon"
+msgstr "Example Addon"
+
 msgctxt "Addons::name::example_addon"
-msgid "Example Addon Template"
-msgstr "Example Addon Template"
+msgid "Example Addon"
+msgstr "Example Addon"
 
 msgctxt "Addons::description::example_addon"
 msgid "A template for creating addons. Requires some random addon. <a href=\"https://github.com/dhaupin\" target=\"_blank\">\[Download\]</a>."
