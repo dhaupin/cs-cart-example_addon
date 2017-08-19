@@ -11,7 +11,7 @@ Obviously, this addon does nothing besides save the Y/N in the example product f
 - Enable/disable addon setting, per-storefront
 - Install/uninstall DB procedures for a Y/N product field
 - Option to abort uninstall DB procedure
-- An example Y/N product field
+- Example Y/N product field model/condition additions
 - Option added to product edit page
 - Product global/mass edit ability
 - Extra hooks for product Y/N condition
