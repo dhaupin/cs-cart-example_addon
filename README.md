@@ -7,11 +7,11 @@ Obviously, this addon does nothing besides save the Y/N in the example product f
 ### Included Addon Examples
 - A pre-formatted addon.xml and language.po file
 - Structure for function, script, and controller
-- Example TPL script hooks for admin and catalog
+- Example TPL hooks for admin and catalog
 - Enable/disable addon setting, per-storefront
 - Install/uninstall DB procedures for a Y/N product field
 - Option to abort uninstall DB procedure
-- Example Y/N product field model/condition additions
+- Y/N product field model/condition additions
 - Option added to product edit page
 - Product global/mass edit ability
 - Extra hooks for product Y/N condition
@@ -20,7 +20,7 @@ Obviously, this addon does nothing besides save the Y/N in the example product f
 ### Future Addon Examples
 - TBA - Simple block schema, settings, and tpl
 
-### Bonus: Addon Dev Tips
+### Troubleshooting/Dev Tips
 - If your addon fails to install due to a PO file error, first check to make sure there is a final new line after the last entry. Your PO file may have perfect syntax, but if there is no final line, it's not technically valid. Please note, the Github web and raw interfaces **do not** show the final new line, so if you're copy-pasting make sure to add it manually.
 - Always check your addon functions against the per-storefront enable option if you choose to use this feature. It's cheaper and more granular to check loaded registry array than to run a function/chain to retun false or other things via your addon itself.
 - Use override TPL hooks with extreme care, and always surround them with a conditional statement so they can revert back down the chain. Overrides are a last resort. If CS-Cart sees any output besides whitespace or linebreaks when your override isn't required, it will nuke the original and possibly other TPL requirements down the line, resulting in addon incompatibility.
