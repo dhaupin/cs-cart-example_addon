@@ -2,7 +2,7 @@
 
 This addon provides a basic structure, template, and other necessary features to roll a CS-Cart addon v3.0. In this example, we show you how to create a Y/N checkbox field for a product, add it to edit page, and allow things like global/mass updating. If you are new or curious about module building for CS-Cart, you can use this repo as a boilerplate. If you are a dev and have more ideas for feature templates, please submit a pull :)
 
-Obviously, this addon does nothing besides save the Y/N in the example product field, until you replace all instances of `example_addon` and its attributes with your own, or remove pieced to add your desired code. As it stands, learning/adding your code is easier because of:
+Obviously, this addon does nothing besides save the Y/N in the example product field, until you replace all instances of `example_addon` and its attributes with your own, and add your desired code. As it stands, learning/adding your code is easier because of:
 
 ### Included Addon Examples
 - A pre-formatted addon.xml and language.po file
